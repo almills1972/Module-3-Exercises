@@ -1,5 +1,9 @@
-function helloWorld(name){
-    return `Hello ${name}!`
-}
+const data = require("./class-1-data.json")
 
-console.log(helloWorld("Alvin"))
+console.log(data[0].name)
+
+//function helloWorld(name){
+    //return `Hello ${name}!`
+//}
+
+//console.log(helloWorld("Alvin"))
